@@ -9,6 +9,8 @@ There is no platform specific code in this project, you just need opengl and glu
 
 Run the makefile to compile the project and make an executable
 
+make options: clean and fresh. "clean" removes the objects and the executable. "fresh" cleans and rebuilds.
+
 
 ### Requirements
 Needs opengl and glut installed, look up the instructions for your environment
