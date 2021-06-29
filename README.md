@@ -20,5 +20,5 @@ Needs opengl and glut installed, look up the instructions for your environment
 WASD controls the player and ESC closes the game
 
 
-### cmd arguments
+### command line arguments
 Enter length and height of the maze using the arguments (both at the same time) -l "length" -h "height", there are no checks for min/max height
