@@ -14,9 +14,11 @@ $(OBJ_PATH)/%.o:	$(SRC_PATH)/%.cpp	$(DEPS)
 	mkdir -p obj
 	$(CC)	-I./$(INCLUDE_PATH)	-c	-o	$@	$<
 
+.PHONY:	game
 game:	$(OBJS)
 	$(CC)	-I./$(INCLUDE_PATH)	$(OBJS)	-o	$(EXE)	-lGL -lGLU -lglut -no-pie
 
+.PHONY:	fresh
 fresh:	clean	game
 
 .PHONY:	clean
